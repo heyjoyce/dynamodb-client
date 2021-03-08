@@ -1,0 +1,20 @@
+{
+  "name": "samples",
+  "version": "0.1.0",
+  "bin": {
+    "app": "bin/app.js"
+  },
+  "scripts": {
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.92.0",
+    "@aws-cdk/core": "1.92.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.92.0",
+    "aws-cdk": "1.92.0",
+    "jest": "^26.4.2"
+  }
+}
